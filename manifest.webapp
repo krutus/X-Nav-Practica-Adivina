@@ -1,0 +1,12 @@
+{
+     "name": "¿Donde estoy?",
+     "description": "¿Donde estoy? para Firefox OS",
+     "launch_path": "/index.html",
+     "icons": {"128": "/icon.png"},
+     "version": "1.0",
+     "developer": {
+          "name": "Luis Haro Peña",
+          "url": "http://github.com/krutus/X-Nav-Practica-Adivina"
+     },
+     "default_locale": "en"
+}

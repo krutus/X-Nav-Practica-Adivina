@@ -20,7 +20,7 @@
     <script src="leaflet.js"></script>
 
 	<!-- Archivo principal JavaScript -->
-    <script src="main2.js"></script>
+    <script src="main.js"></script>
 
     <!-- Bootstrap Core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
@@ -64,7 +64,7 @@
                   <p id = "dificultad" class="navbar-text navbar-right">PRINCIPIANTE</p>
                   
                   <button id = "parar" type="button" class="btn btn-default navbar-btn">Parar</button>
-                  <button id = "nuevo" type="button" class="btn btn-default navbar-btn">Reiniciar juego</button>
+                  <button id = "reiniciar" type="button" class="btn btn-default navbar-btn">Reiniciar juego</button>
 				  <button id = "jugar" type="button" class="btn btn-default navbar-btn" >Jugar
               </div><!-- /.container-fluid -->
             </nav>                
@@ -89,7 +89,7 @@
     <br> 
 		<div class="container">
     
-        	<div id = "respuesta" class="col-md-6" align = right>
+        	<div id = "resolver" class="col-md-6" align = right>
             	<button type="button" class="btn btn-default dropdown-toggle" >Resolver  
             	</button>
         	</div>        
@@ -115,6 +115,8 @@
 
             <p><ul id = "hist" ></ul></p>
         </div>
+		<br>
+		<br>
 </body>
 </html>
 

@@ -3,10 +3,6 @@ body {
     background-color: #6E0000;
 }
 
-#comienzo h1{
-	font-size: 26pt;
-	color: black;
-}
 
 #score h1{
 
@@ -54,9 +50,15 @@ body {
 }
 
 
-#ultimosJuegos{   
-    background-color: #222222;
+#history{   
+    background-color: #B0B0B0 ;
 	color: black;
+	font-size: 12pt;
+	border-top: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+	max-width: 75%;
 }
 
 #map{
@@ -79,9 +81,10 @@ body {
     border-right: 4px solid black;
     border-bottom: 4px solid black;
     border-left: 4px solid black;
+	margin-left : 4px
 	width: 70%;
 	height: 350px;
-	max-width: 100%;
+	max-width: 75%;
     background-color: #c9c9c9;
 }
 
