@@ -81,11 +81,9 @@ body {
     border-right: 4px solid black;
     border-bottom: 4px solid black;
     border-left: 4px solid black;
-	margin-left : 4px
-	width: 70%;
-	height: 350px;
-	max-width: 75%;
+	margin-left : 4px;
     background-color: #c9c9c9;
+	max-width: 75%;
 }
 
 

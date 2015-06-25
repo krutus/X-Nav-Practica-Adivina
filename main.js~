@@ -50,7 +50,7 @@
 		}
 	}
 
-	function iniciarJuego(map, datos, dificultad) {
+	function iniciarJuego(map, datos, TiempoFoto) {
 		Lugar = LugarAleatorio(datos);
 		nombre = Lugar.properties.name;
 		coordenadas1 = Lugar.geometry.coordinates;
@@ -61,7 +61,7 @@
 			nombre = Lugar.properties.name;
 			coordenadas1 = Lugar.geometry.coordinates;
 			num_fotos ++;
-		}, dificultad);
+		}, TiempoFoto);
 
 	}
 
@@ -105,8 +105,8 @@
     	clearTimeout(mostrar);
 		alert("Se te ha acabado el tiempo");
 		num_fotos = 0;
-		dificultad= 3500;
-		nombre_juego = "juegos/Capitales";
+		TiempoFoto= 3500;
+		nombre_juego = "Capitales";
         coordenadasPulsadas = "";
         coordenadasJuego = "";
         document.getElementById("distancia").innerHTML = "No has seleccionado ningún punto";

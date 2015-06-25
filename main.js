@@ -203,7 +203,6 @@ jQuery(document).ready(function() {
             alert ("Pulsa primero el sitio sobre el mapa");
         }else{
             $("#resolver").hide();
-            $("#score").show();
             $("#parar").hide();
             $("#reiniciar").hide();
 			$("#jugar").show();
@@ -234,6 +233,7 @@ jQuery(document).ready(function() {
             document.getElementById("distancia").innerHTML = distancia + " Km";
             document.getElementById("lugar").innerHTML = nombre;
             document.getElementById("puntos").innerHTML = score + " puntos"; 
+			$("#score").show();
 
 			addHistorial(nombre_juego, score);
 

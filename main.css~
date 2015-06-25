@@ -58,7 +58,7 @@ body {
     border-right: 4px solid black;
     border-bottom: 4px solid black;
     border-left: 4px solid black;
-	max-width: 50%;
+	max-width: 75%;
 }
 
 #map{
@@ -81,10 +81,7 @@ body {
     border-right: 4px solid black;
     border-bottom: 4px solid black;
     border-left: 4px solid black;
-	margin-left : 4px
-	width: 70%;
-	height: 350px;
-	max-width: 50%;
+	margin-left : 4px;
     background-color: #c9c9c9;
 }
 

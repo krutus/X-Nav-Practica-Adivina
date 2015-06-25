@@ -113,7 +113,6 @@
         <div id = "history" class="col-md-5">
             <h1 class="lead">Historial de partidas</h1>
 
-            <p><ul id = "hist" ></ul></p>
         </div>
 		<br>
 		<br>
