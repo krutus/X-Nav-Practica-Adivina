@@ -1,0 +1,49 @@
+{ "type": "FeatureCollection",
+	"features": [
+
+	{
+	 	"type": "Feature",
+		"geometry": {"type": "Point", "coordinates": [38.90719, -77.03687]},
+		"properties": {"name": "Washington DC"}
+	},
+
+	{
+	 	"type": "Feature",
+		"geometry": {"type": "Point","coordinates": [40.41677, -3.70379]},
+		"properties": {"name": "Madrid"}
+	},
+	
+	{   "type": "Feature",
+        "geometry": {"type": "Point","coordinates": [52, 13]},
+        "properties": {"name": "Berlin"}
+    },
+
+	{   "type": "Feature",
+        "geometry": {"type": "Point","coordinates": [48, 2]},
+        "properties": {"name": "Paris"}
+    },
+
+    {   "type": "Feature",
+        "geometry": {"type": "Point","coordinates": [51, 0]},
+        "properties": {"name": "Londres"}
+    },
+
+    {   "type": "Feature",
+        "geometry": {"type": "Point","coordinates": [35, 139]},
+        "properties": {"name": "Tokyo"}
+    },
+
+	{
+	 	"type": "Feature",
+		"geometry": {"type": "Point","coordinates": [55.75582, 37.6173]},
+		"properties": {"name": "Moscú"}
+	},
+
+	{
+	 	"type": "Feature",
+		"geometry": {"type": "Point","coordinates": [-34.60372, -58.38159]},
+		"properties": {"name": "Buenos Aires"}
+	}
+
+	]
+}

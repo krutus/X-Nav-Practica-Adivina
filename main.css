@@ -1,0 +1,88 @@
+body {
+    padding-top: 18px;
+    background-color: #6E0000;
+}
+
+#comienzo h1{
+	font-size: 26pt;
+	color: black;
+}
+
+#score h1{
+
+    font-size: 20pt; 
+    color: black;  
+}
+
+#score h2{
+	
+    font-size: 15pt; 
+	color: #6E0000  
+}
+
+#score p{
+
+    font-size: 12pt;   
+}
+
+.slide-image {
+    width: 100%;
+}
+
+#fotos{
+	float: left;
+	width: 49%;
+	height: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#map { 
+	float: right;
+	width: 49%;
+	height: 350px;
+	max-width: 100%;
+}
+
+#mostrarimagen {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-height: 100%;
+}
+
+
+#ultimosJuegos{   
+    background-color: #222222;
+	color: black;
+}
+
+#map{
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+}
+
+#fotos{
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+}
+
+
+#score{
+	border-top: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+	width: 70%;
+	height: 350px;
+	max-width: 100%;
+    background-color: #c9c9c9;
+}
+
+

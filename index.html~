@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Luis Haro Peña">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="¿Donde estoy?">
+    
+
+    <title>¿Donde estoy?</title>
+
+    <!-- jQuery -->
+    <script src="jQuery.js"></script>
+
+    <!-- JavaScript de Bootstrap y leaflet -->
+    <script src="bootstrap.min.js"></script>
+    <script src="leaflet.js"></script>
+
+	<!-- Archivo principal JavaScript -->
+    <script src="main2.js"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link rel="stylesheet" href="leaflet.css" />
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" >            
+            <nav id = "nav" class="navbar navbar-default">
+              <div class="container-fluid">
+                <div class="col-md-12" id="bs-example-navbar-collapse-1">
+                  <ul id = "Juegos" class="nav navbar-nav">
+                    <li class="dropdown">
+                      <a color="#fff" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                      Juego
+                      <span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <button class="list-group-item" id = "game1">Capitales</button> 
+                        <button class="list-group-item" id = "game2">Monumentos</button> 
+                      </ul>
+                    </li>
+                  </ul>
+                  
+                  <ul id="seleccDif" class="nav navbar-nav">
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dificultad
+                      <span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <button class="list-group-item" id = "dif1">Principiante</button> 
+                        <button class="list-group-item" id = "dif2">Normal</button> 
+                        <button class="list-group-item" id = "dif3">Profesional</button> 
+                      </ul>
+                    </li>
+                  </ul>
+                  <p id = "game" class="navbar-text navbar-right">Capitales</p>
+                  <p id = "dificultad" class="navbar-text navbar-right">PRINCIPIANTE</p>
+                  
+                  <button id = "parar" type="button" class="btn btn-default navbar-btn">Parar</button>
+                  <button id = "nuevo" type="button" class="btn btn-default navbar-btn">Reiniciar juego</button>
+				  <button id = "jugar" type="button" class="btn btn-default navbar-btn" >Jugar
+              </div><!-- /.container-fluid -->
+            </nav>                
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!--Carrousel fotos -->
+        <div id = "fotos" class="col-xs-12 col-md-6"></div>
+        <!--FIN carrousel fotos -->
+        
+        <!--Mapa -->           
+        <div id = "map" class="col-md-6">
+             
+        </div>
+        <!-- FIN mapa -->
+        
+		<br>
+    
+   	</div>	
+    <br> 
+		<div class="container">
+    
+        	<div id = "respuesta" class="col-md-6" align = right>
+            	<button type="button" class="btn btn-default dropdown-toggle" >Resolver  
+            	</button>
+        	</div>        
+   		</div>
+	<br>
+	
+        <div id = "score" class="col-md-6">
+            <h1>Lugar que representan las fotos: </h1>
+            <h2 id = "lugar"></h2>
+            <h1>Distancia entre el lugar y tu respuesta: </h1>
+            <h2 id = "distancia"></h2>
+            <br>
+            <h1>Puntuacion obtenida: </h1>
+            <h2 id = "puntos"></h2>
+            
+        </div>
+        
+        <div class="col-md-1">
+            
+        </div>
+        <div id = "history" class="col-md-5">
+            <h1 class="lead">Historial de partidas</h1>
+
+            <p><ul id = "hist" ></ul></p>
+        </div>
+</body>
+</html>
+
